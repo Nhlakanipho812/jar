@@ -13,7 +13,7 @@ here are a few links to get you started:
 [Documentation donet cli](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-tool-install)
 
 ### How to run
-It is relatively simple to gett stared.
+It is relatively simple to get stared.
 1. Make sure you are in the root directory of the app.
 2. First, If you choose to build the project, It will install and restore all the nuget packages.
 3. In case you skipped and/or are not successful in the above step, or to ensure its done run command `dotnet restore` if running on VS, go to project solution explorer right click and choose restore nuget.
