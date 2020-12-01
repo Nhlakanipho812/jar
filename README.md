@@ -16,7 +16,7 @@ here are a few links to get you started:
 It is relatively simple to get stared.
 1. Make sure you are in the root directory of the app.
 2. First, If you choose to build the project, It will install and restore all the nuget packages.
-3. In case you skipped and/or are not successful in the above step, or to ensure its done run command `dotnet restore` if running on VS, go to project solution explorer right click and choose restore nuget.
+3. In case you skipped and/or are not successful in the above step, or to ensure its done run command `dotnet restore` if running on VS, go to project solution explorer right click and choose restore nuget. if your project gets errors after building and installing these packages, run command `dotnet nuget locals all --clear` this will help clear the error in .Net Core 5
 4. Afterwards, run command `dotnet ef database update` if there are no migrations you can start by adding one `dotenet ef migrations add <Migration Name>`
 on Visual Studio under PM you can run `update-database` or if there are no migrations run `add-migration <Migration name>`
 please refer to the documentation [Managing Schemas](https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=vs)
